@@ -5,8 +5,8 @@ for (const char of sentence) {
   
   setTimeout(() => {
     // print the char here
-    process.stdout.write(char);
+    process.stdout.write(char + "\n");
   }, start); // <= 1s delay to make it noticeable. Can dial it down later.
-  start += 50;
+    start += 50;
 }
 
